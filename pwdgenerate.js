@@ -83,3 +83,10 @@ password2El.textContent=fp2;
 password3El.textContent=fp3;
 password4El.textContent=fp4;
 }
+
+function refreshPassword() {
+    password1El.textContent="-";
+  password2El.textContent="-";
+  password3El.textContent="-";
+  password4El.textContent="-";
+  }
